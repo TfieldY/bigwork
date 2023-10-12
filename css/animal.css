@@ -1,0 +1,50 @@
+/* 导航 */
+.container ,.breadcrumb{
+  background-color: skyblue;
+}
+.container{
+  width: 100%;
+}
+.container .breadcrumb li a{
+  color: white;
+  font-size: 26px;
+}
+.container .breadcrumb span{
+  font-size: 46px;
+  color: aliceblue;
+  padding-right: 60px;
+}
+a:hover{
+  text-decoration: none;
+}
+/* 内容 */
+.content{
+  width: 100%;
+  height: auto;
+}
+/* 左侧边栏 */
+.left-content{
+  background-color: white;
+  float: left;
+  width: 16%;
+  font-size: 16px;
+}
+.active{
+  line-height: 44px;
+  text-align: center;
+}
+.active a{
+  color: black;
+  text-decoration: none;
+}
+/* 右侧 */
+.right-content{
+  background-color: whitesmoke;
+  float: left;
+  width: 84%;
+  
+}
+.thumbnail img{
+  width: 231px;
+  height: 231px;
+}

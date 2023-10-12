@@ -1,0 +1,87 @@
+/* 大图 */
+img{
+  width: 100%;
+  height: 300px;
+}
+.content{
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+/* 左侧栏 */
+.left-content{
+  width: 20%;
+  height: 100px;
+}
+.left-content p{
+ color: rgb(114, 151, 207);
+ font-size: 18px;
+ padding-top: 10px;
+}
+.left-content table{
+  width: 100%;
+}
+.left-content table tr{
+  text-align: right;
+  width: 100%;
+  border-bottom: 0.5px solid gainsboro;
+}
+.left-content table tr td{
+  padding-right: 10%;
+  color: rgb(114, 151, 207);
+  font-size: 14px;
+}
+.left-content img{
+  margin-top: 30px;
+  width: 100%;
+  height: 60px;
+}
+/* 右侧内容 */
+.right-content{
+  width: 80%;
+  border-left: 1px solid green;
+}
+.right-content .title{
+  margin-top: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.right-content .jpg{
+  margin-left: 20px;
+  width: 20%;
+  float: left;
+}
+.jpg p{
+  text-align: center;
+  color: rgb(114, 151, 207);
+}
+.jpg img{
+  width: 120px;
+  height: 120px;
+}
+.jpg img:hover{
+  transform:scale(1.4);
+}
+/*  友情链接*/
+.other{
+  width: 60%;
+  margin: 0 auto;
+}
+.other h2{
+  color: rgb(114, 151, 207);;
+}
+.other table{
+  width: 100%;
+}
+.other table tr td{
+  background-color: white;
+  text-align: center;
+  color: green;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 10px solid rgb(237, 250, 217);
+}
+/* footer */
+.footer{
+  height: 200px;
+}
